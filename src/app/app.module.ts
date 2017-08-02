@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ResumeComponent } from './resume/resume.component';
+import { Ng2PageScrollModule } from 'ng2-page-scroll';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ResumeComponent } from './resume/resume.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    Ng2PageScrollModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
