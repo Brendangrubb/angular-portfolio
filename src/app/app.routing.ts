@@ -4,6 +4,7 @@ import { WorkComponent } from './work/work.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ResumeComponent } from './resume/resume.component';
 
 const appRoutes: Routes = [
   {
@@ -11,7 +12,7 @@ const appRoutes: Routes = [
     component: WorkComponent
   },
   {
-    path: 'about',
+    path: '',
     component: AboutComponent
   },
   {
@@ -21,6 +22,10 @@ const appRoutes: Routes = [
   {
     path: 'skills',
     component: SkillsComponent
+  },
+  {
+    path: 'resume',
+    component: ResumeComponent
   }
 ];
 
