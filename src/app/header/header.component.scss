@@ -14,3 +14,24 @@ nav {
   color: $testColor;
   @extend nav;
 }
+
+.navbar-right {
+  display: none;
+}
+
+.hamburger {
+  width: 40px;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+.rotate {
+  animation-name: rotate;
+  animation-duration: 1s;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(180deg); }
+}
