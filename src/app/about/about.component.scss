@@ -1,0 +1,34 @@
+$brk1: 768px;
+$brk2: 992px;
+
+.text-one {
+  font-size: 1.4em;
+  letter-spacing: .1em;
+  text-align: center;
+  @media (min-width: $brk1) {
+    font-size: 2em;
+  }
+}
+
+.text-two {
+  @extend .text-one;
+  font-size: 1.3em;
+  @media (min-width: $brk1) {
+    font-size: 1.7em;
+  }
+}
+
+.text-three {
+  @extend .text-one;
+  font-size: 1.1em;
+  @media (min-width: $brk1) {
+    font-size: 1.5em;
+  }
+}
+
+.about-text {
+  margin-top: 25%;
+  @media (min-width: $brk2) {
+    margin-top: 18%;
+  }
+}
