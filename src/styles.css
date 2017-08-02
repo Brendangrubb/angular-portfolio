@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Orkney';
+    src: url('./assets/orkney/orkney-regular.ttf');
+    font-style: normal;
+    font-weight: bold
+}
+
+@font-face {
+    font-family: 'Orkney-light';
+    src: url('./assets/orkney/orkney-light.ttf');
+    font-style: normal;
+    font-weight: bold
+}
+
+@font-face {
+    font-family: 'Orkney-bold';
+    src: url('./assets/orkney/orkney-bold.ttf');
+    font-style: normal;
+    font-weight: bold
+}
+
+@font-face {
+    font-family: 'Orkney-medium';
+    src: url('./assets/orkney/orkney-medium.ttf');
+    font-style: normal;
+    font-weight: bold
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}

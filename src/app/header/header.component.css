@@ -1,0 +1,12 @@
+.nav-name {
+  font-family: Orkney;
+  text-align: center;
+  width: 100%;
+  font-size: 2.5em;
+}
+
+nav {
+  background-color: inherit;
+  border: none;
+  text-align: center;
+}
