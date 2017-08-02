@@ -15,6 +15,7 @@ export class HeaderComponent implements OnInit {
   }
 
   showMenu() {
-    $('.hamburger').toggleClass("rotate");
+    $('.hamburger').toggleClass('rotate');
+    $('.navbar-right').slideToggle('navbar-right');
   }
 }

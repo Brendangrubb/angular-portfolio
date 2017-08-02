@@ -15,23 +15,22 @@ nav {
   @extend nav;
 }
 
-.navbar-right {
-  display: none;
-}
 
 .hamburger {
+  margin-top: 10px;
   width: 40px;
+  transition: .8s;
 }
 
 .hamburger:hover {
   cursor: pointer;
 }
+
 .rotate {
-  animation-name: rotate;
-  animation-duration: 1s;
+  transform: rotate(180deg);
+  transition: .8s;
 }
 
-@keyframes rotate {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(180deg); }
+.display-none {
+  display: none;
 }
