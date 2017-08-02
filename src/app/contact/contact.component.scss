@@ -1,0 +1,23 @@
+$brk1: 768px;
+$brk2: 992px;
+
+a {
+  color: inherit;
+}
+
+.text-one {
+  text-align: center;
+  word-spacing: 1em;
+  margin: 50px;
+  margin-bottom: 25px;
+  font-size: 1.4em;
+  letter-spacing: .1em;
+  @media (min-width: $brk1) {
+    font-size: 2em;
+  }
+}
+
+// .email {
+//   margin-left: -3em;
+//   font-size: .8em;
+// }
