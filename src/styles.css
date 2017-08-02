@@ -26,7 +26,13 @@
     font-weight: bold
 }
 
+/*GENERIC CENTER TAG*/
 .center {
   display: flex;
   justify-content: center;
+}
+
+/*ALL NON-BODY STYLES*/
+.container {
+  font-family: Orkney-light;
 }

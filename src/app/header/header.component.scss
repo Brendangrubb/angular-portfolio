@@ -1,0 +1,16 @@
+$testColor: black;
+
+nav {
+  background-color: inherit;
+  border: none;
+  text-align: center;
+}
+
+.nav-name {
+  font-family: Orkney;
+  width: 100%;
+  font-size: 2.5em;
+  opacity: 1;
+  color: $testColor;
+  @extend nav;
+}
