@@ -1,18 +1,23 @@
 $testColor: black;
+$brk1: 768px;
 
 nav {
   background-color: inherit;
   border: none;
   text-align: center;
+  margin-top: 15px;
 }
 
-.nav-name {
+a.navbar-brand.nav-name {
   font-family: Orkney;
   width: 100%;
   font-size: 2.5em;
   opacity: 1;
   color: $testColor;
   @extend nav;
+  @media (min-width: $brk1) {
+    margin-left: 0px;
+  }
 }
 
 
@@ -20,6 +25,9 @@ nav {
   margin-top: 10px;
   width: 40px;
   transition: .8s;
+  @media (min-width: $brk1) {
+    visibility: hidden;
+  }
 }
 
 .hamburger:hover {
@@ -28,9 +36,18 @@ nav {
 
 .rotate {
   transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transition: .8s;
+  -webkit-transition: .8s;
+  -ms-transition: .8s;
 }
 
-.display-none {
+.navbar-right {
+  font-size: 1.5em;
+  letter-spacing: .2em;
   display: none;
+  @media (min-width: $brk1) {
+    display: unset;
+  }
 }
