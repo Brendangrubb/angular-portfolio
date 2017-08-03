@@ -15,12 +15,16 @@ export class ResumeComponent implements OnInit {
   }
 
   showWork() {
-    $('.school-body').fadeOut();
     $('.work-body').slideToggle();
+    $('#contact').toggleClass('contact');
+    $('.work-header').toggleClass('header-engaged');
+    $('.school-header').toggleClass('display-none');
   }
 
   showSchool() {
-    $('.work-body').fadeOut();
     $('.school-body').slideToggle();
+    $('#contact').toggleClass('contact');
+    $('.school-header').toggleClass('header-engaged');
+    $('.work-header').toggleClass('display-none');
   }
 }

@@ -1,11 +1,64 @@
+$brk1: 768px;
+$brk2: 992px;
+$brk3: 1200px;
+
+
 .header {
+  text-align: center;
   padding: 10px;
   font-size: 1.5em;
   letter-spacing: .2em;
+  font-family: Orkney;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -ms-transition: .5s;
+  margin-top: 27%;
+  @media (min-width: $brk1) {
+    margin-top: 15%;
+    font-size: 1.8em;
+  }
+  @media (min-width: $brk2) {
+    font-size: 1.8em;
+  }
+  @media (min-width: $brk3) {
+    display: inline;
+    font-size: 2em;
+  }
+}
+
+.header:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.inline-center {
+  @media (min-width: $brk3) {
+    text-align: center;
+    margin-top: 5%;
+  }
+}
+
+.header-engaged {
+  font-size: 1.85em;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -ms-transition: .5s;
+  margin-top: 0%;
+  @media (min-width: $brk1) {
+    margin-top: 5%;
+  }
+}
+
+.display-none {
+  opacity: 0;
+  margin-top: -5%;
+  @media (min-width: $brk1) {
+    margin: -3%;
+  }
 }
 
 .work-body {
-  // display: none;
+  display: none;
 }
 
 .school-body {
@@ -14,20 +67,42 @@
 
 .body-title {
   font-size: 1.5em;
+  @media (min-width: $brk3) {
+    font-size: 1.7em;
+  }
 }
 
 .body-title-two {
   font-size: 1.2em;
+  @media (min-width: $brk3) {
+    font-size: 1.4em;
+  }
 }
 
 .body-title-three {
-  font-size: 1.1em;
+  font-size: 1.15em;
+  @media (min-width: $brk3) {
+    font-size: 1.35em;
+  }
+}
+
+.body-title-four {
+  font-size: 2em;
+  @media (min-width: $brk3) {
+    font-size: 2.2em;
+  }
 }
 
 .body-body {
   font-size: 1.05em;
+  @media (min-width: $brk3) {
+    font-size: 1.25em;
+  }
 }
 
 .body-date {
   font-size: .95em;
+  @media (min-width: $brk3) {
+    font-size: 1.15em;
+  }
 }
