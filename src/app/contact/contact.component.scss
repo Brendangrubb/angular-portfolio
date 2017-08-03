@@ -3,6 +3,7 @@ $brk2: 992px;
 
 a {
   color: inherit;
+  padding: 10px;
 }
 
 .text-one {
@@ -17,7 +18,12 @@ a {
   }
 }
 
-// .email {
-//   margin-left: -3em;
-//   font-size: .8em;
-// }
+.email {
+  // display: flex;
+  // justify-content: center;
+  font-size: .8em;
+  @media (min-width: $brk1) {
+    font-size: 1em;
+
+  }
+}

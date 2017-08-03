@@ -36,3 +36,10 @@
 .container {
   font-family: Orkney-light;
 }
+
+#contact {
+  position: absolute;
+  top: 100vh;
+  display: flex;
+  justify-content: center;
+}
