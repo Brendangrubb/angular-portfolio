@@ -1,0 +1,26 @@
+.work {
+
+}
+
+.work-cube {
+  width: 100%;
+  position: relative;
+  border: 2px solid black;
+  margin-bottom: 8%;
+  overflow: scroll;
+}
+
+.work-cube:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.work-cube-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 3%;
+}
