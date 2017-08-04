@@ -19,6 +19,7 @@ export class ResumeComponent implements OnInit {
     $('#contact').toggleClass('contact');
     $('.work-header').toggleClass('header-engaged');
     $('.school-header').toggleClass('display-none');
+    $('.inline-center').toggleClass('inline-center-top-margin');
   }
 
   showSchool() {
@@ -26,5 +27,6 @@ export class ResumeComponent implements OnInit {
     $('#contact').toggleClass('contact');
     $('.school-header').toggleClass('header-engaged');
     $('.work-header').toggleClass('display-none');
+    $('.inline-center').toggleClass('inline-center-top-margin');
   }
 }
