@@ -1,11 +1,39 @@
-.work {
+$border-color: rgba(128,84,47,.8);
 
+.page-intro {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -ms-transition: .5s;
+}
+
+a:hover, .info-link:hover {
+  color: $border-color;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -ms-transition: .5s;
+}
+
+.info-link {
+  transition: .5s;
+  -webkit-transition: .5s;
+  -ms-transition: .5s;
+}
+
+.info-link:hover {
+  text-decoration: underline;
 }
 
 .work-cube {
   width: 100%;
   position: relative;
-  border: 2px solid black;
+  border: 1px solid $border-color;
+  border-radius: 5px;
   margin-bottom: 8%;
   overflow: scroll;
 }
@@ -33,4 +61,26 @@
 .text-body {
   font-size: 1.1em;
   letter-spacing: .1em;
+}
+
+.text-body-one, .text-body-two, .text-body-three, .text-body-four {
+  @extend .text-body;
+}
+
+.more-info {
+  @extend .text-body;
+  display: none;
+}
+
+.more-info-one, .more-info-two, .more-info-three, .more-info-four {
+  @extend .more-info;
+}
+
+.body-links {
+  position: absolute;
+  bottom: 0;
+}
+
+.display-none {
+  display: none;
 }
