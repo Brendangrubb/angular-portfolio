@@ -44,8 +44,8 @@ a:hover, .info-link:hover {
   margin-bottom: 8%;
   overflow: scroll;
   @media (min-width: $brk2) {
-    margin-left: 100px;
-    margin-right: 100px;
+    // margin-left: 100px;
+    // margin-right: 100px;
   }
 }
 
@@ -57,6 +57,13 @@ a:hover, .info-link:hover {
 
 .work-cube-text {
   padding: 3%;
+  @media (min-width: $brk1) {
+    font-size: 1.2em;
+  }
+  @media (min-width: $brk2) {
+    padding: 0%;
+  }
+
 }
 
 .text-header {
@@ -86,10 +93,27 @@ a:hover, .info-link:hover {
 }
 
 .body-links {
-  // position: absolute;
-  // bottom: 0;
+  @media (min-width: $brk1) {
+    font-size: 1.2em;
+  }
+  @media (min-width: $brk2) {
+    font-size: 1.13em;
+  }
 }
 
 .display-none {
   display: none;
+}
+
+.yank-hr {
+  @media (min-width: $brk2) {
+    display: none;
+  }
+}
+
+.add-break {
+  display: none;
+  @media (min-width: $brk2) {
+    display: unset;
+  }
 }
