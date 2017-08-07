@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+declare var jquery:any;
+declare var $ :any;
+
 
 @Component({
   selector: 'app-skills',
@@ -10,6 +13,7 @@ export class SkillsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $('#contact').toggleClass('contact');
   }
 
 }

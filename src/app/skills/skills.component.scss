@@ -1,0 +1,32 @@
+$brk1: 768px;
+$brk2: 992px;
+$brk3: 1200px;
+
+.skills-title {
+  text-align: center;
+  font-size: 1.3em;
+  @media (min-width: $brk1) {
+    font-size: 1.6em;
+  }
+}
+
+.skills-title-two {
+  font-family: Orkney;
+  font-size: 1.25em;
+  letter-spacing: .12em;
+  text-decoration: underline;
+  @media (min-width: $brk1) {
+    font-size: 1.8em;
+
+  }
+}
+
+.skills-body {
+  font-size: 1.15em;
+  letter-spacing: .12em;
+  text-align: right;
+  @media (min-width: $brk1) {
+    text-align: left;
+    font-size: 1.6em;
+  }
+}
