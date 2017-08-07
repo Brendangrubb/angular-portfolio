@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ResumeComponent } from './resume/resume.component';
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
+import { NoDeployComponent } from './no-deploy/no-deploy.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Ng2PageScrollModule } from 'ng2-page-scroll';
     AboutComponent,
     ContactComponent,
     SkillsComponent,
-    ResumeComponent
+    ResumeComponent,
+    NoDeployComponent
   ],
   imports: [
     BrowserModule,
