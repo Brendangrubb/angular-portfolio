@@ -38,6 +38,6 @@
 }
 
 .contact {
-  position: absolute;
-  top: 100vh;
+  /*position: absolute;*/
+  margin-top: 80vh;
 }
