@@ -30,3 +30,12 @@ $brk3: 1200px;
     font-size: 1.6em;
   }
 }
+
+.spacer {
+  @media (min-width: $brk2) {
+    height: 100px;
+  }
+  @media (min-width: $brk3) {
+    height: 200px;
+  }
+}

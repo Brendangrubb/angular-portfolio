@@ -6,7 +6,7 @@ $brk2: 992px;
   letter-spacing: .1em;
   text-align: center;
   @media (min-width: $brk1) {
-    font-size: 2em;
+    font-size: 2.2em;
   }
 }
 
@@ -14,7 +14,7 @@ $brk2: 992px;
   @extend .text-one;
   font-size: 1.3em;
   @media (min-width: $brk1) {
-    font-size: 1.7em;
+    font-size: 1.9em;
   }
 }
 
@@ -22,7 +22,7 @@ $brk2: 992px;
   @extend .text-one;
   font-size: 1.1em;
   @media (min-width: $brk1) {
-    font-size: 1.5em;
+    font-size: 1.7em;
   }
 }
 
