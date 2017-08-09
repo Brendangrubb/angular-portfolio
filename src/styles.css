@@ -41,3 +41,7 @@
   /*position: absolute;*/
   margin-top: 80vh;
 }
+
+.no-display {
+  display: none;
+}
